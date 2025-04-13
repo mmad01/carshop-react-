@@ -1,0 +1,22 @@
+.articleWrapper {
+  height: 500px;
+  box-shadow: 0 0 10px 0 #ccc;
+  margin-bottom: 40px;
+}
+
+.articleWrapper img {
+  width: 100%;
+  height: 400px;
+}
+
+.articleWrapper h3 {
+  color: green;
+  text-align: end;
+  padding: 5px 8px;
+}
+
+.articleWrapper h5 {
+  text-align: end;
+  color: #b2b2b2;
+  padding: 5px 15px;
+}

@@ -1,0 +1,33 @@
+/* این فایل رو باید اینجوری تویه فایل ریاکت ایمپورت کرد:
+import styled "ya harchi" from './navbar.module.css' */
+.navWrapper{
+  box-shadow: 0px 0px 10px #817a7a;
+}
+
+.nav {
+  text-align: center;
+  display: flex;
+  justify-content: end;
+  height: 60px;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+/* متونیم از همین nav به یو ال استایل بدیم و میتونیم مخصوص واسش کلاس نیم بذاریم 
+یو ال به صورت دیفالت با نقطه اجزایه داخلشو جدا میکنه واسه اینکه این اتفاق نیوفته تویه گلوبال سی اس اس لیست استایلشو نون میذاریم*/
+.nav ul {
+  display: flex;
+  justify-content: end;
+  flex-direction: row-reverse;
+  padding-right: 40px;
+}
+
+/* حالا ال آی ها هم داخله یو ال هستند و میتونیم بهشون استایل بدیم */
+.nav ul li {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+/* className={styled.nav} 
+    اینجوری باید استفاده کنیم استایل هایه داخله این فایل رو
+    بهتره که از ماژول دات سی اس اس استفاده کنی */

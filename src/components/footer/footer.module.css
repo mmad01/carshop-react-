@@ -1,0 +1,14 @@
+.footer {
+    background-color: rgb(58, 58, 58);
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 50px;
+
+}
+
+.footer:active {
+    background-color: darkviolet;
+}

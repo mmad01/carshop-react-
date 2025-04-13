@@ -1,0 +1,16 @@
+.inputeWarper{
+    margin-bottom: 20px;
+}
+
+.inputeWarper label{
+    display: block;
+    text-align: right;
+    margin-bottom: 5px;
+}
+
+.inputeWarper input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: right;
+}

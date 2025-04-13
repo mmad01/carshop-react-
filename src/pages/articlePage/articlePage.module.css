@@ -1,0 +1,46 @@
+.head {
+  background-color: rgb(135, 120, 141);
+}
+
+.article {
+  text-align: center;
+}
+
+.article h1 {
+  box-shadow: 0 10px 10px 0 tomato;
+  background-color: tomato;
+  text-align: center;
+}
+
+.details {
+  font-size: 20px;
+  display: flex;
+  justify-content: end;
+  flex-direction: row-reverse;
+  justify-content: center;
+  box-shadow: 0 10px 10px 0;
+}
+
+.details span {
+  margin-right: 50px;
+  margin-top: 20px;
+}
+
+.article img {
+  width: 50%;
+  height: 600px;
+  margin-top: 50px;
+  box-shadow: 0 0 50px 0 rgb(60, 60, 60);
+}
+
+.article h2 {
+  margin-top: 50px;
+  color: green;
+  font-size: 30px;
+}
+
+.article h4 {
+  margin-top: 50px;
+  font-size: 30px;
+  background-color: rgb(98, 98, 98);
+}

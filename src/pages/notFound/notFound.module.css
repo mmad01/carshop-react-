@@ -1,0 +1,8 @@
+.notFoundwarpper {
+    background-color: black;
+    color: rgb(170, 25, 25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}

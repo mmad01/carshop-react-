@@ -1,0 +1,19 @@
+.aboute {
+font-size: larger;
+text-align: center;
+}
+
+.aboute p {
+font-size: 20px;
+margin: 100px 100px 100px 100px;
+box-shadow: 0 0 30px 60px rgba(0, 0, 0, 0.1);
+}
+
+.aboute h2 {
+    color: green;
+}
+
+.aboute img {
+    width: 50%;
+    margin: 100px 100px 100px 100px;
+}
