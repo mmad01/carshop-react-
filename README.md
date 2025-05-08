@@ -9,12 +9,7 @@ JavaScript
 json-server
 
 HTML/CSS
-FreeCodeCamp
-+6
-YouTube
-+6
-DigitalOcean
-+6
+
 
 🚀 Getting Started
 Prerequisites
