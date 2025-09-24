@@ -31,7 +31,7 @@ function AddPost() {
   };
 
   const handleCreateNewArticle = () => {
-    axios.post("http://localhost:8484/article", {
+    axios.post("https://jsonplaceholder.typicode.com/posts", {
       id: 11,
       imgeUrl: article.imgUrl,
       title: article.title,

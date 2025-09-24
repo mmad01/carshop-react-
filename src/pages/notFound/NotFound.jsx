@@ -5,7 +5,6 @@ import Navbar from "../../components/navbar/Navbar"
 function NotFound() {
   return (
     <>
-    <Navbar className={styled.nav} title="ممد شاپ" />
       <div className={styled.notFoundwarpper}>
         <h1>404Error</h1>
       </div>
