@@ -26,22 +26,20 @@ function Navbar(props) {
                 لیست محصولات
               </Link>
             </li>
-            <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <li className="nav-item">
+              <Link className="nav-link" to="/" id="navbarNavDropdown" role="button">
                 محصولات
-              </a>
-              <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li>
-                  <Link className="dropdown-item" to="/add">
-                    جدید
-                  </Link>
-                </li>
-                <li>
-                  <Link className="dropdown-item" to="/">
-                    لیست
-                  </Link>
-                </li>
-              </ul>
+              </Link>
+            </li>
+             <li className="nav-item">
+              <Link className="nav-link" to="/cartPage" id="navbarNavDropdown" role="button">
+                سبد ها
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/userPage" id="navbarNavDropdown" role="button">
+                کاربران
+              </Link>
             </li>
           </ul>
         </div>

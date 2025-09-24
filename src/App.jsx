@@ -1,10 +1,11 @@
 import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
-import ArticlePage from "./pages/ArticlePage";
 import NotFound from "./pages/notFound/NotFound";
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
 import "./styles/app.css";
+import CartPage from "./pages/CartPage/CartPage";
+import UserPage from "./pages/userPage/UserPage";
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
           <Routes>
             <Route path="*" element={<NotFound />} />
             <Route path="/" element={<Home />} />
-            <Route path="/articlePage/:id" element={<ArticlePage />} />
+            <Route path="/cartPage" element={<CartPage />} />
+            <Route path="/userPage" element={<UserPage />} />
           </Routes>
         </div>
         <Footer />

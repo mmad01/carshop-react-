@@ -10,6 +10,24 @@ export const list = async () => {
   }
 };
 
+export const cartsList = async () => {
+  try {
+    const response = await axios.get(`${API_URL}/carts` , {})
+    return response.data;
+  } catch (err) {
+    return HandleApiError(err);
+  } 
+}
+
+export const userList = async () => {
+  try {
+    const response = await axios.get(`${API_URL}/users` , {})
+    return response.data.address;
+  } catch (err) {
+    return HandleApiError(err);
+  } 
+}
+
 export const single = async (id) => {
   try {
     const response = await axios.get(`${API_URL}/products/${id}`, {});
@@ -43,6 +61,8 @@ export const update = async (id) => {
     return HandleApiError(error);
   }
 };
+
+///////products/////
 
 // for example
 // export const remove = async (id) => {
